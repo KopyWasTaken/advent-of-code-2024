@@ -40,9 +40,12 @@ if __name__ == "__main__":
     # solve the first part
     ans = solve(lines)
 
+    print("===========================================")
+
     # solve the second part
     ans2 = solve_pt2(lines)
 
-    # print out answer
+    # print out answers 
     print(f"Part 1: {ans}")
+    print("===========================================")
     print(f"Part 2: {ans2}")
